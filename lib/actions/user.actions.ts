@@ -6,7 +6,7 @@ import {cookies} from "next/headers";
 import {parseStringify} from "@/lib/utils";
 
 
-export const signIn = async ({email, password} : signInProps) => {
+export const signIn = async ({ email, password } : signInProps) => {
   try {
     const { account } = await createAdminClient();
 
@@ -67,7 +67,3 @@ export async function getUserLoggedOut() {
     return null;
   }
 }
-
-
-
-

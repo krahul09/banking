@@ -16,7 +16,7 @@ function RightSideBar({ user, transactions, banks }: RightSidebarProps) {
           </div>
           <div className="profile-details">
             <h1 className="profile-name">
-              {user?.name}
+              {user.name}
             </h1>
             <p className="profile-email">{user?.email}</p>
           </div>
